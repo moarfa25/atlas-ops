@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --ft-cream: #FFF1E5;
+  --ft-pink: #F2DFCE;
+  --ft-salmon: #990F3D;
+  --ft-navy: #0D1B2A;
+  --ft-dark: #1A1A1A;
+  --ft-mid: #5C5C5C;
+  --ft-light: #8C8C8C;
+  --ft-border: #CCC0B3;
+  --ft-gold: #F2C14E;
+  --ft-up: #09562B;
+  --ft-down: #A3180F;
+}
+
+html,
+body {
+  background: var(--ft-cream);
+  color: var(--ft-dark);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
